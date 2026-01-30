@@ -1,5 +1,5 @@
 import React from 'react';
-import { DollarSign, ShieldCheck, Award, Lock } from 'lucide-react';
+import { DollarSign, ShieldCheck } from 'lucide-react';
 
 export const ValuesBanner: React.FC = () => {
   return (
@@ -25,19 +25,6 @@ export const ValuesBanner: React.FC = () => {
             <p className="text-white/95 text-sm font-medium leading-relaxed">
               Nosso trabalho é garantir que você <span className="font-bold text-white">não perca seu benefício</span> por erros ou falta de informação.
             </p>
-          </div>
-          
-          {/* Selos de confiança */}
-          <div className="flex items-center justify-center gap-4 mt-3">
-            <div className="flex items-center gap-1.5 text-white/90">
-              <Lock className="w-4 h-4" />
-              <span className="text-xs font-medium">Dados Seguros</span>
-            </div>
-            <div className="w-px h-4 bg-white/30"></div>
-            <div className="flex items-center gap-1.5 text-white/90">
-              <Award className="w-4 h-4" />
-              <span className="text-xs font-medium">Atendimento Humanizado</span>
-            </div>
           </div>
         </div>
       </div>
