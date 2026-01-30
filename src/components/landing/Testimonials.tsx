@@ -13,7 +13,7 @@ const testimonials: Testimonial[] = [
 
 export const Testimonials: React.FC = () => {
   return (
-    <section className="py-10 md:py-16 bg-white">
+    <section className="py-8 md:py-12 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-4xl mx-auto mb-8 md:mb-12">
           <h2 className="text-xl md:text-4xl font-bold text-brand-pink mb-3 md:mb-4 leading-tight">

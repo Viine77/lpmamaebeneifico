@@ -5,7 +5,7 @@ import { Logo } from '../Logo';
 
 export const Eligibility: React.FC = () => {
   return (
-    <section className="relative py-20 md:py-24 overflow-hidden">
+    <section className="relative py-10 md:py-14 overflow-hidden">
       <div className="absolute inset-0 z-0 transform scale-105" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80")', backgroundSize: 'cover', backgroundPosition: 'center'}} />
       <div className="absolute inset-0 z-0 bg-white/90 md:bg-white/85 backdrop-blur-[2px]"></div>
       <div className="container mx-auto px-4 relative z-10">
