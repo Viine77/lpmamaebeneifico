@@ -16,7 +16,7 @@ export const FAQ: React.FC = () => {
   const toggle = (index: number) => setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 md:py-12 bg-white">
       <div className="container mx-auto px-4">
         <div className="bg-brand-pink/10 rounded-3xl p-8 md:p-12 shadow-sm max-w-5xl mx-auto flex flex-col lg:flex-row gap-12">
           <div className="lg:w-1/3 space-y-6">

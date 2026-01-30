@@ -3,7 +3,7 @@ import { Button } from './Button';
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-brand-pink text-white py-16">
+    <footer className="bg-brand-pink text-white py-10 md:py-12">
       <div className="container mx-auto px-4 text-center max-w-4xl">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">Conheça a AMOR - Auxílio Maternidade Oficial</h2>
         <p className="text-white/80 text-lg leading-relaxed mb-8">

@@ -28,7 +28,7 @@ const StepCard = ({ number, title, description }: { number: string, title: strin
 
 export const Steps: React.FC = () => {
   return (
-    <section id="steps" className="py-12 md:py-20 bg-white">
+    <section id="steps" className="py-8 md:py-12 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-pink mb-2">Como Funciona?</h2>
