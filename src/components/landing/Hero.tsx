@@ -17,7 +17,7 @@ export const Hero: React.FC = () => {
             <h1 className="text-foreground text-2xl md:text-5xl font-bold leading-tight">
               30 mil mamães já receberam entre{" "}
               <span className="text-brand-pink">R$ 5.612</span> e{" "}
-              <span className="text-brand-pink">R$ 14.900</span> por meio de um processo seguro, conduzido com cuidado por especialistas.
+              <span className="text-brand-pink">R$ 14.900</span> com um processo seguro e acompanhado por especialistas.
             </h1>
 
             {/* CTA só aparece aqui no desktop */}
