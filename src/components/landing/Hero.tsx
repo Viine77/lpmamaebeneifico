@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
             
             {/* CTA só aparece aqui no desktop */}
             <div className="hidden md:flex pt-4 justify-start">
-              <Button pulse onClick={() => document.getElementById('steps')?.scrollIntoView({
+              <Button onClick={() => document.getElementById('steps')?.scrollIntoView({
               behavior: 'smooth'
             })} className="text-lg px-8 py-3">
                 Fazer Análise Gratuita!
@@ -39,23 +39,12 @@ export const Hero: React.FC = () => {
               <div className="bg-white p-1.5 md:p-2 rounded-xl md:rounded-2xl shadow-xl md:shadow-2xl">
                 <img src={teamPhoto} alt="Equipe Amor Auxílio Maternidade" className="w-full rounded-lg md:rounded-xl object-cover" />
               </div>
-              <div className="absolute -bottom-4 md:-bottom-6 right-2 md:-right-8 bg-white p-2.5 md:p-4 rounded-lg md:rounded-xl shadow-lg md:shadow-xl flex items-center gap-2 md:gap-3 animate-bounce">
-                <div className="bg-brand-green/20 p-1.5 md:p-2 rounded-full">
-                  <svg className="w-4 h-4 md:w-6 md:h-6 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </div>
-                <div>
-                  <p className="text-[10px] md:text-xs text-muted-foreground font-bold uppercase">Atendimento</p>
-                  <p className="text-xs md:text-sm font-bold text-foreground">100% Humanizado</p>
-                </div>
-              </div>
             </div>
           </div>
 
           {/* CTA só aparece aqui no mobile - depois da imagem */}
           <div className="md:hidden w-full flex justify-center mt-4">
-            <Button pulse onClick={() => document.getElementById('steps')?.scrollIntoView({
+            <Button onClick={() => document.getElementById('steps')?.scrollIntoView({
             behavior: 'smooth'
           })} className="text-base px-6 py-2.5 w-full max-w-xs">
               Fazer Análise Gratuita!
