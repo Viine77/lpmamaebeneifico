@@ -7,51 +7,47 @@ import teamHeroMobile from "@/assets/team-hero-mobile.png";
 export const Hero: React.FC = () => {
   return (
     <section className="relative bg-gradient-to-br from-white to-brand-pink/10 overflow-hidden">
-      {/* Mobile Layout - Imagem de fundo fullscreen */}
-      <div className="md:hidden relative min-h-screen">
+      {/* Mobile Layout */}
+      <div className="md:hidden relative h-[70vh]">
         {/* Imagem de fundo */}
         <div className="absolute inset-0">
           <img
             src={teamHeroMobile}
             alt="Equipe Amor Auxílio Maternidade"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-top"
           />
           {/* Overlay gradiente para legibilidade */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/60"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/50"></div>
         </div>
         
         {/* Conteúdo sobreposto */}
-        <div className="relative z-10 flex flex-col min-h-screen">
+        <div className="relative z-10 flex flex-col h-full px-4 py-4">
           {/* Logo no topo */}
-          <div className="pt-4 pb-2 flex justify-center">
-            <Logo layout="vertical" iconClassName="h-14" />
+          <div className="flex justify-center mb-3">
+            <Logo layout="vertical" iconClassName="h-12" />
           </div>
           
-          {/* Headline no canto superior esquerdo */}
-          <div className="px-4 pt-2">
-            <h1 className="text-white text-xl font-bold leading-tight drop-shadow-lg text-left">
-              30 mil mamães já receberam entre{" "}
-              <span className="text-brand-pink-light">R$ 5.612</span> e{" "}
-              <span className="text-brand-pink-light">R$ 14.900</span> com um processo seguro e acompanhado por especialistas.
-            </h1>
-          </div>
+          {/* Headline */}
+          <h1 className="text-white text-lg font-bold leading-snug drop-shadow-lg text-left">
+            30 mil mamães já receberam entre{" "}
+            <span className="text-brand-pink-light">R$ 5.612</span> e{" "}
+            <span className="text-brand-pink-light">R$ 14.900</span> com um processo seguro e acompanhado por especialistas.
+          </h1>
           
-          {/* Spacer para empurrar o CTA para baixo */}
+          {/* Spacer */}
           <div className="flex-1"></div>
           
-          {/* CTA no rodapé */}
-          <div className="px-4 pb-8">
-            <Button
-              onClick={() =>
-                document.getElementById("steps")?.scrollIntoView({
-                  behavior: "smooth",
-                })
-              }
-              className="text-base px-6 py-3 w-full"
-            >
-              Fazer Análise Gratuita!
-            </Button>
-          </div>
+          {/* CTA */}
+          <Button
+            onClick={() =>
+              document.getElementById("steps")?.scrollIntoView({
+                behavior: "smooth",
+              })
+            }
+            className="text-base py-3 w-full"
+          >
+            Fazer Análise Gratuita!
+          </Button>
         </div>
       </div>
 
