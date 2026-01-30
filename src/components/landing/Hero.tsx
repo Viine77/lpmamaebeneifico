@@ -33,8 +33,8 @@ export const Hero: React.FC = () => {
 
           {/* Imagem */}
           <div className="w-full md:w-7/12 relative flex justify-center">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-brand-pink/20 w-[110%] h-[110%] rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob"></div>
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-brand-blue/20 w-[110%] h-[110%] rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-2000 ml-10 mt-10"></div>
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-brand-pink/20 w-[110%] h-[110%] rounded-full blur-3xl opacity-30 -z-10"></div>
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-brand-blue/20 w-[110%] h-[110%] rounded-full blur-3xl opacity-30 -z-10 ml-10 mt-10"></div>
             <div className="relative z-10 w-full transform transition-transform hover:scale-[1.01] duration-500">
               <div className="bg-white p-1.5 md:p-2 rounded-xl md:rounded-2xl shadow-xl md:shadow-2xl">
                 <img src={teamPhoto} alt="Equipe Amor Auxílio Maternidade" className="w-full rounded-lg md:rounded-xl object-cover" />
