@@ -14,14 +14,20 @@ export const SocialProof: React.FC = () => {
             </h2>
           </div>
           
-          {/* iPhone centralizado */}
-          <div className="relative">
+          {/* iPhone centralizado com efeito 3D */}
+          <div className="relative" style={{ perspective: '1000px' }}>
              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] bg-brand-pink/10 rounded-full z-0 blur-3xl opacity-50"></div>
              
-             {/* iPhone Frame */}
-             <div className="relative z-10 max-w-[280px] w-full">
-               {/* iPhone outer frame */}
-               <div className="bg-[#1a1a1a] rounded-[3rem] p-3 shadow-2xl">
+             {/* iPhone Frame com 3D e animação */}
+             <div 
+               className="relative z-10 max-w-[280px] w-full animate-fade-in"
+               style={{ 
+                 transform: 'rotateY(-8deg) rotateX(3deg)',
+                 transformStyle: 'preserve-3d'
+               }}
+             >
+               {/* iPhone outer frame com sombra 3D */}
+               <div className="bg-[#1a1a1a] rounded-[3rem] p-3 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.4),_-10px_10px_30px_-10px_rgba(0,0,0,0.3)]">
                  {/* iPhone inner bezel */}
                  <div className="bg-[#0a0a0a] rounded-[2.5rem] overflow-hidden relative">
                    {/* Dynamic Island */}
