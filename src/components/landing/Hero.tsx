@@ -54,7 +54,7 @@ export const Hero: React.FC = () => {
           {/* Headline */}
           <h1 className="text-brand-pink-light text-lg font-bold leading-snug drop-shadow-lg text-left">
             30 mil mamães já receberam entre{" "}
-            <span className="text-white font-extrabold">R$ 5.612</span> e{" "}
+            <span className="text-white font-extrabold">R$ 6.484</span> e{" "}
             <span className="text-white font-extrabold">R$ 14.900</span> com um processo seguro e acompanhado por especialistas.
           </h1>
           
@@ -87,7 +87,7 @@ export const Hero: React.FC = () => {
           <div className="w-full md:w-5/12 space-y-4 md:space-y-6 z-10 text-center md:text-left">
             <h1 className="text-foreground text-2xl md:text-5xl font-bold leading-tight">
               30 mil mamães já receberam entre{" "}
-              <span className="text-brand-pink">R$ 5.612</span> e{" "}
+              <span className="text-brand-pink">R$ 6.484</span> e{" "}
               <span className="text-brand-pink">R$ 14.900</span> com um processo seguro e acompanhado por especialistas.
             </h1>
 

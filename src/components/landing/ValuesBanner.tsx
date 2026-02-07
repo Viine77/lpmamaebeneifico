@@ -8,7 +8,7 @@ export const ValuesBanner: React.FC = () => {
         {/* Desktop: texto original */}
         <div className="hidden md:flex items-center justify-center gap-2 text-white font-bold text-lg md:text-xl">
           <DollarSign className="w-6 h-6 bg-brand-green rounded-full p-1 box-content shadow-sm" />
-          <span>Valores de R$ 5.612,00 à R$ 14.900,00</span>
+          <span>Valores de R$ 6.484,00 à R$ 14.900,00</span>
         </div>
         
         {/* Mobile: texto alternativo com elementos de segurança */}
