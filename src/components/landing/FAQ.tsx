@@ -6,7 +6,7 @@ import { FaqItem } from '@/types';
 const faqData: FaqItem[] = [
   { question: "O que é Auxílio Maternidade", answer: "O Auxílio ou Salário Maternidade é um benefício previdenciário pago às mães que se afastam do trabalho por motivo de nascimento de filho, adoção ou guarda judicial para fins de adoção." },
   { question: "Quem tem direito?", answer: "Mães que contribuíram para o INSS, empregadas domésticas, trabalhadoras rurais, contribuintes individuais e facultativas, além de desempregadas que mantiveram a qualidade de segurada." },
-  { question: "Qual o valor do benefício?", answer: "O valor varia entre R$ 5.612,00 a R$ 14.900,00, dependendo do histórico de contribuições e do salário de contribuição da segurada." },
+  { question: "Qual o valor do benefício?", answer: "O valor varia entre R$ 6.484,00 a R$ 14.900,00, dependendo do histórico de contribuições e do salário de contribuição da segurada." },
   { question: "Quem paga esse benefício?", answer: "Para empregadas com carteira assinada, geralmente é a empresa que paga e depois é reembolsada pelo INSS. Para as demais categorias, o pagamento é feito diretamente pelo INSS." },
   { question: "Como funciona esse benefício?", answer: "É um valor pago mensalmente durante 120 dias (4 meses), podendo ser estendido em casos específicos. O benefício garante que a mãe tenha renda durante o período de afastamento." },
 ];
