@@ -5,7 +5,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="bg-brand-pink text-white py-10 md:py-12">
       <div className="container mx-auto px-4 text-center max-w-4xl">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6">Conheça a AMOR - Auxílio Maternidade Oficial</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">Conheça a AMOR Auxílio Maternidade</h2>
         <p className="text-white/80 text-lg leading-relaxed mb-8">
           A AMOR é referência em Auxílio Maternidade, oferecendo assessoria completa e humanizada para mães de todo o Brasil. Nossa equipe especializada cuida de todo o processo, garantindo que você receba o benefício que é seu por direito.
         </p>
